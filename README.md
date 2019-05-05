@@ -11,5 +11,5 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
 
 <b>Load the main css:</b> &#x3C;link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
 
-<b>And use like:</b> &#x3C;script>$(".element").gScrollingCarousel();&#x3C;/script> 
+<b>And use like:</b> &#x3C;script>$(".g-scrolling-carousel .items").gScrollingCarousel();&#x3C;/script> 
 
