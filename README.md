@@ -5,10 +5,11 @@ A Google like jQuery scrolling carousel plugin.
 Because there wasn't any jQuery carousel plugin with the functionality that I needed.
 
 # How to use
-Load jquery: <script src="https/code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+<b>Load jQuery:</b> &#x3C;script src="https/code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">&#x3C;/script> 
 
-Load the plugin <script src="jquery.gScrollingCarousel.js"></script> 
-Load the main css <link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
+<b>Load the plugin:</b> &#x3C;script src="jquery.gScrollingCarousel.js">&#x3C;/script> 
+
+<b>Load the main css:</b> &#x3C;link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
 
 And use like: $(".element").gScrollingCarousel();
 
