@@ -1,5 +1,5 @@
         jQuery(function ($) {
-            $.fn.jCarousel = function (amount) {
+            $.fn.gScrollingCarousel = function (amount) {
                 var supportsTouch = false;
 
                 if ('ontouchstart' in window){
