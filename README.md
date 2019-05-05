@@ -6,13 +6,16 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
 
 # How to use
 ```html
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
-<script src="jquery.gScrollingCarousel.js"></script> 
-<link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
-<script>
-  $(".g-scrolling-carousel .items").gScrollingCarousel()
-</script>
-
+<html>
+<head>
+  <link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
 <div class="g-scrolling-carousel">
   <div class="items">
     <a href="http://example.com">Item #1</a>
@@ -34,4 +37,14 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
     <a href="http://example.com">Item #17</a>
   </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+<script src="jquery.gScrollingCarousel.js"></script> 
+<script>
+  $(document).ready(function(){
+    $(".g-scrolling-carousel .items").gScrollingCarousel();
+  });
+</script>
+</body>
+</html>
 ```
