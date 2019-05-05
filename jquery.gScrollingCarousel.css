@@ -52,12 +52,6 @@
         .jc-left:hover svg{
            fill: #000;
         }
-        @media (max-width: 991px) {
-          .jc-right,
-          .jc-left {
-            display: none !important;
-          }
-        }
         @media (pointer: coarse) {
           .jc-right,
           .jc-left {
