@@ -6,9 +6,9 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
 
 # How to use
 ```html
-<script src="https/code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
-<script src="https://raw.githubusercontent.com/morgansson/g-scrolling-carousel/master/jquery.gScrollingCarousel.js"></script> 
-<link href="https://raw.githubusercontent.com/morgansson/g-scrolling-carousel/master/jquery.gScrollingCarousel.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+<script src="jquery.gScrollingCarousel.js"></script> 
+<link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
 <script>
   $(".g-scrolling-carousel .items").gScrollingCarousel()
 </script>
