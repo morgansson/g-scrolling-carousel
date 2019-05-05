@@ -5,15 +5,14 @@ A Google like jQuery scrolling carousel plugin.
 Because there wasn't any jQuery carousel plugin with the functionality that I needed.
 
 # How to use
-<b>Load jQuery:</b> &#x3C;script src="https/code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">&#x3C;/script> 
+```html
+<script src="https/code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"</script> 
+<script src="jquery.gScrollingCarousel.js"></script> 
+<link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
+<script>
+  $(".g-scrolling-carousel .items").gScrollingCarousel()
+</script>
 
-<b>Load the plugin:</b> &#x3C;script src="jquery.gScrollingCarousel.js">&#x3C;/script> 
-
-<b>Load the main css:</b> &#x3C;link href="jquery.gScrollingCarousel.css" rel="stylesheet" />
-
-<b>And use like:</b> &#x3C;script>$(".g-scrolling-carousel .items").gScrollingCarousel();&#x3C;/script> 
-
-<pre>
 <div class="g-scrolling-carousel">
   <div class="items>
     <a href="http://example.com">Item #1</a>
@@ -21,4 +20,4 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
     <a href="http://example.com">Item #3</a>
   </div>
 </div>
-</pre>
+```
