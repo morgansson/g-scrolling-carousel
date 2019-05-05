@@ -14,7 +14,7 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
 </script>
 
 <div class="g-scrolling-carousel">
-  <div class="items>
+  <div class="items">
     <a href="http://example.com">Item #1</a>
     <a href="http://example.com">Item #2</a>
     <a href="http://example.com">Item #3</a>
