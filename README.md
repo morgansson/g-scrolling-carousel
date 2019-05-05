@@ -13,3 +13,12 @@ Because there wasn't any jQuery carousel plugin with the functionality that I ne
 
 <b>And use like:</b> &#x3C;script>$(".g-scrolling-carousel .items").gScrollingCarousel();&#x3C;/script> 
 
+<pre>
+<div class="g-scrolling-carousel">
+  <div class="items>
+    <a href="http://example.com">Item #1</a>
+    <a href="http://example.com">Item #2</a>
+    <a href="http://example.com">Item #3</a>
+  </div>
+</div>
+</pre>
