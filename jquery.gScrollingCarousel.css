@@ -1,13 +1,13 @@
-        .j-carousel {
+        .g-scrolling-carousel {
             position: relative;
         }
-        .j-carousel .items {
+        .g-scrolling-carousel .items {
             overflow-x: scroll;
             white-space: nowrap;
             width: 100%;
             -webkit-overflow-scrolling: touch;
         }
-        .j-carousel .items::-webkit-scrollbar { 
+        .g-scrolling-carousel .items::-webkit-scrollbar { 
             display: none; 
         }
         .jc-right,
