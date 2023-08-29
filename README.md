@@ -4,6 +4,9 @@ A Google like jQuery scrolling carousel plugin.
 # Why
 Because there wasn't any jQuery carousel plugin with the functionality that I needed.
 
+# Example
+[Demo page](https://morgansson.github.io/g-scrolling-carousel-master/example.html)
+
 # Default options
 ```
 {
